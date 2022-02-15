@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import CryptoContext from './CryptoContext';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <CryptoContext>
-      <App />
-    </CryptoContext>
-  </React.StrictMode>,
+  <CryptoContext>
+    <App />
+  </CryptoContext>,
   document.getElementById('root')
 );

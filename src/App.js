@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Header from './components/Header';
 import Coinpage from './components/Coinpage';
+
 import { makeStyles } from '@material-ui/styles';
 
 function App() {
